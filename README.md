@@ -2,6 +2,8 @@
 
 #### This mod is a tool intended to assist mod developers, and has limited usefulness for typical players.
 
+**NOTE - this repo might have problems with the Content/Widgets/JsonW`I`dgets` folder name. Why couldn't Nog just get the capitalization right the first time... You might need to fix some case problems to load this in the editor.**
+
 *This mod is in Maintenance Mode. Do not expect new functionality to be added soon.*
 
 For support, join the [Nog's Mods discord server](https://discord.gg/kcRmFxn89d).
