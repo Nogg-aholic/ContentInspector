@@ -1,12 +1,12 @@
 {
 	"FileVersion": 3,
-	"Version": 0,
-	"SemVersion": "0.2.0",
-	"VersionName": "0.2.0",
+	"Version": 1,
+	"SemVersion": "1.1.0",
+	"VersionName": "1.1.0",
 	"FriendlyName": "ContentInspector",
 	"Description": "Live in-game debugging tool for analyzing loaded content and actors\n\nUse /inspect to open the widget as a resizable window in-game, or use the Mod Configs screen.\n\nCheck out the mod page for support and more info: https://ficsit.app/mod/ContentInspector/",
 	"Category": "Modding",
-	"CreatedBy": "Nog",
+	"CreatedBy": "Nog, Robb",
 	"CreatedByURL": "https://ficsit.app/mod/ContentInspector",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -19,12 +19,12 @@
 		{
 			"Name": "JsonStructs",
 			"Enabled": true,
-			"SemVersion": ">=0.2.0"
+			"SemVersion": ">=1.0.0"
 		},
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.3.0"
+			"SemVersion": "^3.5.0"
 		}
 	]
 }

@@ -2,10 +2,6 @@
 
 #### This mod is a tool intended to assist mod developers, and has limited usefulness for typical players.
 
-**NOTE - this repo might have problems with the Content/Widgets/JsonW`I`dgets` folder name. Why couldn't Nog just get the capitalization right the first time... You might need to fix some case problems to load this in the editor.**
-
-*This mod is in Maintenance Mode. Do not expect new functionality to be added soon.*
-
 For support, join the [Nog's Mods discord server](https://discord.gg/kcRmFxn89d).
 
 **ContentInspector** is an in-game debugging tool created by Nog that allows you to **view**, **modify**\*, and **export to JSON** the following:
@@ -27,13 +23,24 @@ This is useful for:
 - Checking what mod content actually ends up registered
 - Whatever you want to use it for!
 
-To open the inspector in-game, you can use the chat command `/inspect`, or the widget built into the Mod Configs screen (useful on the Main Menu).
+To open the inspector in-game, you can use the chat command `/inspect`,
+or the widget built into the Mod Configs screen (useful on the Main Menu).
 
-It is quite possible to crash your game session by modifying various properties. Do not expect to receive support for crashes caused by changes you make with this tool.
+If you want to return to a window later in your game session,
+you can use the minimize button.
+The same window will be restored when you use `/inspect` again.
 
-It is possible to dump and generate Blueprints or some Assets (Curves, Material stubs, etc.) with ContentInspector, but it's highly advised to use the [Asset Toolkit](https://docs.ficsit.app/satisfactory-modding/latest/CommunityResources/AssetToolkit.html) instead, since asset generation is not the purpose of this mod.
+It is quite possible to crash your game session by modifying various properties.
+Do not expect to receive support for crashes caused by changes you make with this tool.
 
-Depends on [JsonStructs](https://ficsit.app/mod/D5hAq4qaqxLvZm), a hidden mod. Will be installed automatically when you install this mod via SMM. Note that fields prefixed with `JS_` are created by JsonStructs and contain metadata about the field being inspected.
+It is possible to dump and generate Blueprints or some Assets (Curves, Material stubs, etc.) with ContentInspector,
+but it's highly advised to use the
+[Asset Toolkit](https://docs.ficsit.app/satisfactory-modding/latest/CommunityResources/AssetToolkit.html)
+instead, since asset generation is not the purpose of this mod.
+
+Depends on [JsonStructs](https://ficsit.app/mod/JsonStructs), a hidden mod.
+Will be installed automatically when you install this mod via SMM.
+Note that fields prefixed with `JS_` are created by JsonStructs and contain metadata about the field being inspected.
 
 Inspecting the Fuel Generator in Widget view mode:
 
