@@ -2,9 +2,11 @@
 
 #### This mod is a tool intended to assist mod developers, and has limited usefulness for typical players.
 
+For a brief walkthrough of using this tool, see the [ContentInspector Tutorial on the ContentLib documentation](https://docs.ficsit.app/contentlib/latest/Tutorials/ContentInspector.html).
+
 For support, join the [Nog's Mods discord server](https://discord.gg/kcRmFxn89d).
 
-**ContentInspector** is an in-game debugging tool created by Nog that allows you to **view**, **modify**\*, and **export to JSON** the following:
+**ContentInspector** is an in-game debugging tool created by Nog that allows you to **view**, temporarily **modify**\*, and **export to JSON** the following:
 
 - Mod and base-game content
 - Script-generated content (such as that loaded by [ContentLib](https://ficsit.app/mod/ContentLib))
@@ -26,12 +28,17 @@ This is useful for:
 To open the inspector in-game, you can use the chat command `/inspect`,
 or the widget built into the Mod Configs screen (useful on the Main Menu).
 
+To inspect a specific in-world actor, stand near it and look at it,
+then use the `/inspect this` chat command.
+The widget's title bar will show information about what the trace found.
+
 If you want to return to a window later in your game session,
 you can use the minimize button.
 The same window will be restored when you use `/inspect` again.
 
 It is quite possible to crash your game session by modifying various properties.
 Do not expect to receive support for crashes caused by changes you make with this tool.
+Any modifications will not persist between game sessions.
 
 It is possible to dump and generate Blueprints or some Assets (Curves, Material stubs, etc.) with ContentInspector,
 but it's highly advised to use the
