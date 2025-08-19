@@ -9,6 +9,8 @@ For support, join the [Nog's Mods discord server](https://discord.gg/kcRmFxn89d)
 _This mod currently maintained by Robb._
 _If you enjoy my work, please consider donating to my [completely optional tip jar](https://ko-fi.com/robb4)._
 
+----
+
 **ContentInspector** is an in-game debugging tool created by Nog that allows you to **view**, temporarily **modify**\*, and **export to JSON** the following:
 
 - Mod and base-game content
@@ -16,7 +18,7 @@ _If you enjoy my work, please consider donating to my [completely optional tip j
 - Property values on every loaded Actor in the game world
 - Probably more I (Robb) am not aware of
 
-\**(Note: success with modification of properties may vary)*
+\*_Note: success with modification of properties may vary)_
 
 This is useful for:
 
